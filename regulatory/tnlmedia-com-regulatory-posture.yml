@@ -1,0 +1,32 @@
+generated: '2026-10-25'
+method: probed
+source: https://www.tnlmediagene.com/privacy
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://www.tnlmediagene.com/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "If you want the Group and the Services to—in accordance with the Personal Data Protection Act—stop collecting, processing, using, or deleting personal data provided, please contact the Group by its contact mailbox."
+    note: Provides a mechanism for data subjects to request cessation or deletion of their data.
+  subprocessors:
+    evidence:
+      - source: https://www.tnlmediagene.com/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "In order to offer the products or services you have requested, the Group provides data to partners who have signed non-disclosure agreements to perform business on its behalf."
+    note: Discloses use of subprocessors/partners with NDAs.
+  data_residency:
+    evidence:
+      - source: https://www.tnlmediagene.com/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "In order to protect your personal data and provide better services, The News Lens Co., Ltd and TNL Mediagene Group ... pursuant to the Personal Data Protection Act of the Republic of China."
+    note: Indicates data is subject to Taiwan (Republic of China) law.
+  data_retention:
+    evidence:
+      - source: https://www.tnlmediagene.com/privacy
+        http_status: 200
+        fetched: "true"
+        quote: "When you use the service mailbox or other interactive features, the Services will retain your name, e-mail, contact details, and usage time."
+    note: States that certain personal data are retained.

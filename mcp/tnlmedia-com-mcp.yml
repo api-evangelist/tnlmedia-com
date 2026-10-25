@@ -1,0 +1,10 @@
+generated: '2026-10-26'
+method: derived
+source: "https://tnlmedia.com"
+deployment:
+  mode: none
+  endpoint: "https://tnlmedia.com"
+  install: ""
+  package: ""
+  auth: none
+  verified: derived
